@@ -1,0 +1,9 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:IndTask="clr-namespace:IndTask;assembly=IndTask" x:Class="Check.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <IndTask:BusinessCard HorizontalAlignment="Left" Margin="130,62,0,0" VerticalAlignment="Top" Height="138" Width="304" PersonalName="Vladimir Putin" Phone="88005553535" Email="usachevgay@gmail.com" ImagePath="C:\Users\nikit\Desktop\dtc\graph\en1\1.png"/>
+    </Grid>
+</Window>

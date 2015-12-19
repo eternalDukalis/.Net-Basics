@@ -1,0 +1,28 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IndTask" x:Class="IndTask.BusinessCard" 
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="400">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="persName"  Grid.Column="1" Margin="0,10" TextWrapping="Wrap" TextAlignment="Center" FontWeight="SemiBold" Foreground="#FF002EFF" FontFamily="RodchenkoC" VerticalAlignment="Bottom" FontSize="16" Text="Person's name"/>
+                <Image Name="img" Height="100" Margin="10" Grid.RowSpan="3" Width="100" Source="E:\path.png"/>
+                <TextBlock Name="email" Grid.Column="1" Margin="0" Grid.Row="1" TextWrapping="Wrap" Text="E-mail" TextAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Name="phone" Grid.Column="1" Margin="0,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Phone: " VerticalAlignment="Top" TextAlignment="Center"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
